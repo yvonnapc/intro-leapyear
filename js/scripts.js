@@ -1,5 +1,5 @@
 var leapYear = function(year) {
-  return ((year % 4===0) && (year % 100 !==0) || (year % 400 === 0)) || (year <= 0);
+  return ((year % 4===0) && (year % 100 !==0) || (year % 400 === 0) && (year != 0) && (year > 0));
 };
 
 $(document).ready(function() {
@@ -17,11 +17,9 @@ $(document).ready(function() {
     }
 
     if (isNaN(year)) {
-            alert("False");
+      alert("Please Enter a Number");
     }
-    if (year <= 0) {
-      alert("Negative Number");
-    }
+
     $("#result").show();
     event.preventDefault();
   });
