@@ -32,7 +32,7 @@ If you have any issues, questions, ideas, or concerns contact us through GitHub.
 • Markdown<br>
 • GIT<br>
 • Mocha<br>
-• Chai
+• Chai<br>
 
 ## License
 
